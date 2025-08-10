@@ -6,6 +6,9 @@ This repo contains installation scripts to make our lives easier.
 ## Common
 To stay modular, everything that is common is in the common directory. If something in the common directory doesn't work, open an issue so we can track things. If you can't wait, move that code out of common for everyone.
 
+## Distro
+Note that we expect all systems to be based off Ubuntu LTS. This directory contains distro specific code.
+
 ## Device
 Since you can use any SBC, the device folder is for code that is device specific (enabling IO, low power shutoff, etc...).
 
